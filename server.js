@@ -5,3 +5,5 @@ var express = require('express'),
 app.listen(port);
 
 console.log('todo list RESTful API server started on: ' + port);
+userRouter = require('./api/routes/user.route');
+app.use('/user', userRouter)
