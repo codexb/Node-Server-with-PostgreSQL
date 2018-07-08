@@ -1,0 +1,26 @@
+{
+  "name": "node-server-with-mysql",
+  "version": "1.0.0",
+  "description": "simple server to store and retrive data form mysql db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sruwan/Node-Server-with-MySQL.git"
+  },
+  "author": "Saliya Ediriweera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sruwan/Node-Server-with-MySQL/issues"
+  },
+  "homepage": "https://github.com/sruwan/Node-Server-with-MySQL#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

@@ -1,2 +1,2 @@
-# Node-Server-with-MySQL
- Simple server to store and retrieve data form mysql db
+# Node-Server-with-PostgreSQL
+ Simple server to store and retrieve data form PostgreSQL db
